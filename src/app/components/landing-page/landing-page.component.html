@@ -1,0 +1,232 @@
+<div class="main-container m-0">
+    <div class="cont-a" data-toggle="collapse" data-target="#collapseThis" aria-expanded="false" aria-controls="collapseThis">
+<div class="blur">
+
+        
+       <nav class="navbar navbar-expand-lg navbar-inverse navbar-light  mx-5">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><span style="color:#00E5FF;font-weight: 600;font-size: 30px;">Brand</span>
+                <span style="color:#FFF;font-weight: 600;font-size: 30px;">Name</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" [ngStyle]="{'color': light? '#fff': '#000'}"></i>
+            </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li  class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Properties</a>
+                </li>
+                <li (click)="openContact()" class="nav-item">
+                    <a class="nav-link" >Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Offers</a>
+                </li>
+                <li class="nav-item" (click)="changeTheme()" >
+                    <img style="width:26px" class="mt-2 ms-2" src="../../../assets/bulb.png" alt="bulb">
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+        <hr class="p-4 my-0 mx-5">
+    <div class="d-flex flex-column align-items-center justify-content-center flex-wrap my-4" style="position:relative; top:22%">
+        <div class="d-flex flex-column align-items-center flex-wrap mb-3">
+            <h5>A good tag line</h5>
+            <h1 class="text-center">Easier. Faster. Cheaper</h1>
+        </div>
+    
+        <div class="search-div-bg" >
+            <div class="d-flex search-div shadow">
+                <input class="" type="text" placeholder="Search for something">
+                <button class="btn-a me-3">Search</button>
+            </div>
+
+            </div>
+    </div>   
+    </div>
+        </div>
+
+        <!-- [ngStyle]="{'color': light? '#000' : '#fff','background-color':light?'#fff':'#040c12'}" -->
+
+    <div class="cont-b p-5" >
+        <div class="px-4">
+            <div  class="d-flex flex-row flex-wrap">
+                <div  class="col-md-10 col-lg-6 col-xxl-6 mx-auto align-self-center">
+                    <h3 >The Problem Persits.</h3>
+                <p style="line-height: 3rem; margin: 0;">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde eligendi, dignissimos velit
+                    itaque esse, possimus in quibusdam porro consequuntur distinctio quasi voluptatem beatae nulla! A impedit earum fugiat iste. adipisicing elit hsdifhsd hsifhsi o sdhfishf i sdhfiohsdoi  sdhfihsdfsd  nasdiasng fajfsajfasofhas  fihdsf iasf naspi asfhas as sfasifah as asjf. Officiis accusantium odit praesentium ratione eo
+                </p> 
+                </div>
+                <div  class="align-self-center col-md-8 col-lg-6 col-xxl-6 col-md-8 mx-auto ">
+                    <img class=" img-fluid p-sm-5 px-lg-3 p-xxl-5 mx-auto justify-self-center" style="width:650px; display:grid;" src="assets/Group.png" alt="">
+                </div>
+            </div>
+            <div class="bg-div m-5 mx-auto">
+                <div class="shadow inner-b p-1 d-flex flex-wrap mx-auto justify-content-center " style="border-radius:5px; justify-content:space-evenly !important;">
+                    <p style="margin:0; align-self:center; color:#FFF;">Home owner's list with us & save $1000 in fees</p>
+                    <button (click)="gotClicked()" class="btn-b ms-3">Our Fees</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cont-c p-5">
+        <div class="d-flex flex-column align-items-center px-4 mx-auto" style="width:70%;">
+            <h3 style="text-align: center; width:100%;margin:20px;">We aim to achieve this</h3>
+            <p style="line-height: 3rem; text-align:center; margin:0;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel reiciendis veniam dolorem odio hic in rerum aperiam, dolorum deleniti, neque perspiciatis voluptatem repudiandae aliquam libero cupiditate quia quasi, ducimus quas.</p>
+        </div>
+    </div>
+
+    <div class="cont-d p-5">
+        <h3  class="my-3 text-center"  style="width: 100%;">Our Aim</h3>
+        <div class="card-container d-flex flex-row justify-content-center flex-wrap my-5">
+            <div class="card-div col-sm-12 col-md-6 col-lg-3 col-xxl-3 m-3">
+                <div class="m-3 my-5">
+                <img style="height:50px; border-radius: 100%;margin-bottom: 30px; background-color: #5defff;" src="../../../assets/img1.png" alt="">
+                <h4>All you need in one place</h4>
+                <p style="line-height: 1.5rem; font-size: 12px;width: 80%; margin: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut veritatis autem at iusto iure sint error reiciendis vero? Asperiores consecte</p>
+                </div>
+            </div>
+            <div class="card-div col-sm-12 col-md-6 col-lg-3 col-xxl-3 m-3">
+                <div class="m-3 my-5">
+                <img style="height:50px; border-radius: 100%;margin-bottom: 30px; background-color: #5defff;" src="../../../assets/img1.png" alt="">
+                <h4>All you need in one place</h4>
+                <p style="line-height: 1.5rem; font-size: 12px;width: 80%; margin: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut veritatis autem at iusto iure sint error reiciendis vero? Asperiores consecte</p>
+                </div>
+            </div>
+            <div class="card-div col-sm-12 col-md-6 col-lg-3 col-xxl-3 m-3">
+                <div class="m-3 my-5">
+                <img style="height:50px; border-radius: 100%;margin-bottom: 30px; background-color: #5defff;" src="../../../assets/img1.png" alt="">
+                <h4>All you need in one place</h4>
+                <p style="line-height: 1.5rem; font-size: 12px;width: 80%; margin: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut veritatis autem at iusto iure sint error reiciendis vero? Asperiores consecte</p>
+                </div>
+            </div>
+            <div class="card-div col-sm-12 col-md-6 col-lg-3 col-xxl-3 m-3">
+                <div class="m-3 my-5">
+                <img style="height:50px; border-radius: 100%;margin-bottom: 30px; background-color: #5defff;" src="../../../assets/img1.png" alt="">
+                <h4>All you need in one place</h4>
+                <p style="line-height: 1.5rem; font-size: 12px;width: 80%; margin: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut veritatis autem at iusto iure sint error reiciendis vero? Asperiores consecte</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-c p-5">
+            <h3 class="my-3 text-center" style="width: 100%;">Our current services & fees</h3>
+            <div class="d-flex flex-wrap justify-content-center mt-5">
+                <button (click)="btnClick(1)" class="service-btn mx-3 mb-4">Rentals</button>
+                <button (click)="btnClick(2)" class="service-btn mx-3 mb-4">Selling</button>
+            </div>
+            <div *ngIf="btnValue==1" class="d-flex flex-wrap justify-content-center mx-auto">
+                <div class="service-div m-4 py-4 px-5">
+                    <p class="" style="color:#1B1A17;font-weight:700;">Tenant Find + Tenancy Setup $50</p>
+                    <small class="text-muted">Includes</small>
+                    <p class="my-4 service-text">> SoloMove Listing/Social media adver</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social media advertisement</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social me</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social me</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social media advertisement</p>
+                </div>
+                <div class="service-div m-4 py-4 px-5">
+                    <p class="" style="color:#1B1A17; font-weight:700;">Managed by US $35 P.M</p>
+                    <small class="text-muted">Includes</small>
+                    <p class="my-4 service-text">> Collecting chasing rent</p>
+                    <p class="mb-4 service-text">> Handling issues</p>
+                    <p class="mb-4 service-text">> Dealing with tenant</p>
+                    <p class="mb-4 service-text">> Compliance reminder</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social media advertisement</p>
+                </div>
+            </div>
+
+            <div *ngIf="btnValue==2" class="d-flex flex-wrap justify-content-center mx-auto">
+                <div class="service-div m-4 py-4 px-5">
+                    <p class="" style="color:#1B1A17; font-weight:700;">Managed by US $35 P.M</p>
+                    <small class="text-muted">Includes</small>
+                    <p class="my-4 service-text">> Collecting chasing rent</p>
+                    <p class="mb-4 service-text">> Handling issues</p>
+                    <p class="mb-4 service-text">> Dealing with tenant</p>
+                    <p class="mb-4 service-text">> Compliance reminder</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social media advertisement</p>
+                </div>
+                <div class="service-div m-4 py-4 px-5">
+                    <p class="" style="color:#1B1A17;font-weight:700;">Tenant Find + Tenancy Setup $50</p>
+                    <small class="text-muted">Includes</small>
+                    <p class="my-4 service-text">> SoloMove Listing/Social media adver</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social media advertisement</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social me</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social me</p>
+                    <p class="mb-4 service-text">> SoloMove Listing/Social media advertisement</p>
+                </div>
+                
+            </div>
+    </div>
+
+    <div class="cont-d p-5">
+        <div class="d-flex flex-wrap justify-content-center mx-auto" style="">
+            <div class="align-self-center col-lg-6 col-md-10 mx-auto row" >
+                <div class="col-lg-4"></div>
+                <div class="col-md-6" style="display: flex; flex-direction:column; flex-wrap: wrap;padding: 36px;">
+                    <h3 style="width:100%">Have any questions?</h3>
+                    <p style="line-height: 1.75rem;font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officiis illo voluptat</p>
+                    <div class="d-flex shadow-sm ">
+                        <img class="m-3" src="../../../assets/mail-open.png" alt="mail-btn">
+                        <h5 class="m-3 align-self-center">Info.solomove@gmail.com</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+            <div class="col-lg-6 col-md-10 mx-auto" >
+                <h3 style="margin-left: 10px;width:100%">Quick Contact</h3>
+                <form  [formGroup]="contactForm" (ngsubmit)="response()">
+                    <div class="row" class="form-group">
+                      
+                            <input  class="last-input" type="text" placeholder="Full Name*" formControlName="fullName">
+                            <br>
+                            <small *ngIf="!(contactForm.controls['fullName'].touched || submitted)" class="text-danger ms-3">Please enter your full name</small>
+                            <br>
+                            <input  class="last-input " type="email" placeholder="Email*" formControlName="email">
+                            <br>
+                            <small *ngIf="contactForm.controls['email'].errors" class="text-danger ms-3">Please enter valid email</small>
+                            <br>
+                            <input  class="last-input " type="text" placeholder="Subject*" formControlName="subject">
+                            <br>
+                            <small *ngIf="!(contactForm.controls['subject'].touched || submitted)" class="text-danger ms-3">Please enter subject</small>
+                            <br>
+                            <input  class="last-input " type="number" placeholder="Mobile Number*" formControlName="mobileNumber">
+                            <br>
+                            <small *ngIf="contactForm.controls['mobileNumber'].errors" class="text-danger ms-3">Please enter valid mobile number</small>
+                            <br>
+                     
+                        <textarea class="last-msg " type="text" placeholder="Message" formControlName="message" ></textarea>
+                    </div>
+                    <button (click)="response()"  type="submit" >
+                        <img src="../../../assets/send.png" alt=""/> Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+   <footer class="p-5" style="background-color:#1B1A17;">
+    <div class="d-flex flex-row justify-content-between">
+        <span  style="color:#FFF">©Copyright 2025 SoloMove - All Rights Reserved</span>
+
+        <div>
+            <a href="" class="m-2"><i class="fa-brands fa-linkedin-in" style="color:#00E5FF"></i></a>
+            <a href="" class="m-2"><i class="fa-brands fa-twitter fa-bounce" style="color:#00E5FF"></i></a>
+        </div>
+    </div>
+
+   </footer>
+
+</div>
